@@ -51,12 +51,44 @@
     padding-top: 20px;
     padding-bottom:20px;
 }
-.flex1 input
+.flex1 .flex1-flex1
 {
-    border: none;
-    border-radius:20px;
-    line-height:50px;
-    width:255px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex1 .flex1-flex1 .flex1-flex1-flex1
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 48px;
+}
+.flex1 .flex1-flex1 .flex1-flex1-flex1 .part1
+{
+    background-color: white;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 34px;
+    color: #6a2c91;
+    width: 55px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 9px;
+}
+.flex1 .flex1-flex1   .num-control
+{
+    cursor: pointer;
+    height: 3rem;
+    background: #f9f9fa;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 100px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
 }
 .flex1 button{
     border-radius: 20px;
@@ -71,7 +103,7 @@
     background: linear-gradient(90deg, #f04e23 0%, #f04e23 10%, #f26322 30.55%, #f6871f 76.87%, #f7941d 99.95%, #f7941d 100%);
     width:255px;
 }
-.flex1 div:nth-child(1)
+.flex1 .recharge
 {
     
     font-weight: bold;
@@ -176,6 +208,61 @@
     margin-top: 50px;
     margin-bottom:25px;
     margin-right: 74px;
+    position: relative;
+}
+.container .container-flex .section .middownp
+{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+}
+.container .container-flex .section .middownp1
+{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: linear-gradient(90deg, #e2e3e4 0%, #ffffff 100%);
+    background: linear-gradient(
+90deg
+, #e2e3e4 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+.container .container-flex .section .middle-section .image-text
+{
+    display: flex;
+    position:absolute;
+    left:150px;
+    top: 92px;
+    transform: translate(-65%, -50%);
+    color: blueviolet;
+    font-weight: bold;
+    font-family: Quickstand;
+}
+.container .container-flex .section .middle-section .image-text div:nth-child(2)
+{
+    line-height: 45px;
+    color: linear-gradient(90deg, #221e67 0%, #5e1f70 24.95%, #7a2976 48.4%, #a3387d 82.83%, #b63f81 100%);
+
+}
+.container .container-flex .section  .midbuttons
+{
+    padding: 0px 30px;
+}
+.container .container-flex .section  .midbuttons .midbutton-parts
+{
+    
 }
 .box7
 {
@@ -397,11 +484,13 @@
     top: -148px;
     position: relative;
 }
-.footer .footer-container{
+.footer
+{
     background-color: #f9f9fa;
     background: linear-gradient(0deg, #e2e3e4 0%, #ffffff 100%);
     padding-top: 3.5rem;
 }
+
 .footer .footer-container .row .row1
 {
     display: flex;
@@ -430,4 +519,72 @@
 .footer .footer-container .row .row1 div
 {
     margin-bottom:20px;
+}
+.flex9 .image_part
+{
+    position: relative;
+}
+.flex9 .image_part div
+{
+    position: absolute;
+    top:230px;
+    left:79px;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+} 
+.flex9 .image_part span
+{
+    font-weight: bold;
+}
+.footer .footer-middle
+{
+    margin: 0px 105px;
+}
+.fm-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer .footer-middle .fm-flex .fm-flex-flex1
+{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer .footer-middle .fm-flex .fm-flex-flex1 .chat 
+{  
+    position: fixed;
+    top:75%;
+    left: 93%;
+}
+.footer .footer-middle .fm-flex .fm-flex-flex1 .chat img
+{  
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+ 
+}
+.footer .footer-last
+{
+    padding: 40px 105px;
+}
+.fm-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer .footer-last .fm-flex .fm-flex-flex1
+{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer .footer-last .fm-flex .fm-flex-flex1 a
+{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
 }
