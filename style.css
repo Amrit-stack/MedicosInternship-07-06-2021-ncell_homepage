@@ -718,18 +718,13 @@
 0deg
  , #e2e3e4 0%, #ffffff 93.68%);
 }
+.wrapper .downbutton
+{
+    text-align: center;
+    padding-top: 40px;
+} 
 @media only screen and (max-width:796px;)
 {
- .topnav
- {
-    width: 100%;
-  
- }
- .main_header
- {
-    width: 100%;
-    display: flex;
-    
- }
+ 
 
 }
